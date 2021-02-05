@@ -17,7 +17,7 @@ The MongoDB CI Checker checks whether the GitHub CI workflow test environments u
 
 # Installation
 
-1. Install adapter:
+1. Install package:
     ```
     npm install --save mongodb-ci-checker
     ```
