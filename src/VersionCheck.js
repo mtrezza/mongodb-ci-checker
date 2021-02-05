@@ -23,7 +23,7 @@ class VersionCheck {
       keyEnvironments,
       pathToYamlFile,
       ignoreVersions = [],
-    } = options;
+    } = options || {};
 
     // Ensure parameters are set
     if ([keyVersion, keyEnvironments, pathToYamlFile].includes(undefined)) {
@@ -187,10 +187,12 @@ class VersionCheck {
       ignoreVersions: process.env.MONGODB_CI_CHECKER_IGNORE_VERSIONS,
     } = process.env;
 
+    // Parse to array
+    options.ignoreVersions = JSON.parse(options.ignoreVersions);
+
     // Start check
     new VersionCheck(options).check();
   }
 }
 
-export default VersionCheck.prototype.check;
-module.exports = VersionCheck.prototype.check;
+module.exports = VersionCheck;
