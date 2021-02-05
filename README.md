@@ -65,5 +65,5 @@ The check is configures via environment variables:
 
 # Need help?
 
-- Ask on StackOverflow using the [parse-server](https://stackoverflow.com/questions/tagged/mongodb) tag.
+- Ask on StackOverflow using the [mongodb](https://stackoverflow.com/questions/tagged/mongodb) tag.
 - Search through existing [issues](https://github.com/mtrezza/mongodb-ci-checker/issues) or open a new issue.
