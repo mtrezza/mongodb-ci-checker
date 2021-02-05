@@ -54,7 +54,7 @@ The MongoDB CI Checker checks whether the GitHub CI workflow test environments u
 
 # Configuration
 
-The check is configures via environment variables:
+The check is configured via environment variables in the GitHub workflow YAML file:
 
 | Environment Variable               | Type          | Optional | Default | Example Value                         |
 |------------------------------------|---------------|----------|---------|---------------------------------------|
