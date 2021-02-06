@@ -13,6 +13,7 @@ The MongoDB CI Checker checks whether the GitHub CI workflow test environments u
 
 - [Installation](#installation)
 - [Configuration](#configuration)
+  - [Example](#example)
 - [Need help?](#need-help)
 
 # Installation

@@ -1,6 +1,6 @@
 {
   "name": "mongodb-ci-checker",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "MongoDB CI Checker",
   "main": "./lib/index.js",
   "scripts": {
