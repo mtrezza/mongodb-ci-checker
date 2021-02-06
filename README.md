@@ -124,12 +124,16 @@ As defined above, the tests will be executed in environments with the following 
 - `4.0.22`
 
 The MongoDB CI Check will fail, if:
-- There is a newer MongoDB patch version `4.4.4`.
-- There is a newer MongoDB major version `5.0.0` or minor version `4.5.0`.
+- There is a newer MongoDB patch version available, such as `4.4.4`, `4.2.13` or `4.0.23`.
+- There is a newer MongoDB minor version available, such as `4.5.x`.
+- There is a newer MongoDB major version available, such as `5.x.x`.
 
 The MongoDB CI Check will *not* fail, if:
-- There is a MongoDB versions `4.7.x` because they are excluded in `MONGODB_CI_CHECKER_IGNORE_VERSIONS`.
-- There is no environment defined with a MongoDB version `<4.0.0` because versions below the smallest defined minor version `4.0.x` are automatically ignored.
+- There is a newer MongoDB version `4.7.x` available because it is excluded in `MONGODB_CI_CHECKER_IGNORE_VERSIONS`.
+- There is no environment defined with a MongoDB version `<4.0.0` because versions below the smallest defined minor version `4.0.22` are automatically ignored.
+
+Note:
+- Available MongoDB pre-release versions such as release candidates (`x.y.z-rc0`) or alpha/beta versions (`x.y.z-alpha01`) are ignored.
 
 # Need help?
 
