@@ -1,7 +1,14 @@
 # Changelog
 
 # main
-[Full Changelog](https://github.com/mtrezza/mongodb-ci-checker/compare/1.0.2...master)
+[Full Changelog](https://github.com/mtrezza/mongodb-ci-checker/compare/1.0.3...master)
+
+# 1.0.3
+[Full Changelog](https://github.com/mtrezza/mongodb-ci-checker/compare/1.0.2...1.0.3)
+
+### 🧬 Improvements
+- Added full config example to README. [#2](https://github.com/mtrezza/mongodb-ci-checker/pull/2). Thanks to [mtrezza](https://github.com/mtrezza).
+
 
 # 1.0.2
 [Full Changelog](https://github.com/mtrezza/mongodb-ci-checker/compare/1.0.1...1.0.2)
