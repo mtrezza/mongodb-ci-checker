@@ -41,7 +41,7 @@
     "@actions/core": "1.2.6",
     "mongodb-version-list": "1.0.0",
     "semver": "7.3.4",
-    "yaml": "1.10.0"
+    "yaml": "1.10.2"
   },
   "devDependencies": {
     "@babel/cli": "7.12.13",
